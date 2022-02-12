@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useState} from 'react'
+
 
 const ProductCard = (item) => {
     
@@ -12,7 +13,7 @@ const ProductCard = (item) => {
         </div>
         <div className='productQuantity'>
             <div>-</div>
-            <p>{}</p>
+            <p>1</p>
             <div>+</div>
         </div>
     </div>
