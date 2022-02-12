@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainWrapper{
+  display: flex;
+}
+.mainContent{
+  flex:4;
+}
+
+ul{
+  list-style: none;
+}
+
+@import url('./header.css');
+
+@import url('./leftbar.css');
+
+@import url('./productcard.css');

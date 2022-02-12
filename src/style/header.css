@@ -1,0 +1,19 @@
+.headerWrapper{
+    width: 100vw;
+    height: 60px;
+    background: rgb(148, 6, 101);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.headerMenu{
+    display: flex;
+    align-items: center;
+    
+}
+.headerMenu p{
+    margin-left: 20px;
+    cursor: pointer;
+}

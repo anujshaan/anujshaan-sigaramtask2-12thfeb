@@ -1,0 +1,16 @@
+.leftbarWrapper{
+    flex:1;
+    height: 50vh;
+    padding: 0 40px;
+}
+.leftbarWrapper h3{
+    margin: 20px 0;
+}
+
+.leftbarWrapper ul li{
+    margin: 10px 0;
+}
+
+.leftbarWrapper ul li:hover{
+    background:linear-gradient(to right, #fff, rgb(236, 63, 63));
+}
