@@ -2,4 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 30px 0;
+}
+
+.productDetails{
+    margin: 0 30px;
+}
+
+.productQuantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

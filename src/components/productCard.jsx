@@ -10,8 +10,10 @@ const ProductCard = (item) => {
             <p>{item.item.price}</p>
             <p>{item.item.description}</p>
         </div>
-        <div>
-            <p>quantity</p>
+        <div className='productQuantity'>
+            <div>-</div>
+            <p>{}</p>
+            <div>+</div>
         </div>
     </div>
   )
