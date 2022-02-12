@@ -19,3 +19,6 @@
 .productQuantity p{
     padding: 0 10px;
 }
+.productQuantity div{
+    cursor: pointer;
+}

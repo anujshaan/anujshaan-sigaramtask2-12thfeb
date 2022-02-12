@@ -3,6 +3,15 @@ import React,{useState} from 'react'
 
 const ProductCard = (item) => {
     
+    let [quantity, setQuantity] = useState(0);
+    const handleDecrease = () =>{
+        if(quantity > 0){
+            setQuantity(--quantity);
+        }
+    }
+    const handleIncrease = () =>{
+        setQuantity(++quantity);
+    }
   return (
     <div className='productCardWrapper'>
         <img src={item.item.image} alt="" style={{width:'80px'}} />
@@ -12,9 +21,9 @@ const ProductCard = (item) => {
             <p>{item.item.description}</p>
         </div>
         <div className='productQuantity'>
-            <div>-</div>
-            <p>1</p>
-            <div>+</div>
+            <div onClick={handleDecrease}>-</div>
+            <p>{quantity}</p>
+            <div onClick={handleIncrease}>+</div>
         </div>
     </div>
   )
